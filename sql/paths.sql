@@ -1,0 +1,4 @@
+-- It might be fun if users can track complex stats like a transmission's paths to other people, and how many views it got along the way, but that's a massive amount of data.
+-- That might be okay because users are paying to send messages. 
+-- Might change file name to stats.sql and include all stats functions. 
+-- I'm not sure if users who syndicate should keep a copy of the original message or just the general meta data. Maybe it should depend on if and how much they paid to rebroadcast. 
