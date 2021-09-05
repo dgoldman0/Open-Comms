@@ -12,6 +12,15 @@ USE OpenComms;
 DELIMITER $$
 
 CREATE TABLE TransmissionCollections(id INT UNSIGNED NOT NULL auto_increment, owner_id INT UNSIGNED NOT NULL);
-CREATE TABLE LogEntries(id INT UNSIGNED NOT NULL auto_increment, collection_id INT UNSIGNED NOT NULL, entry_date DATE NOT NULL DEFAULT VALUE getdate(), VARCHAR(3000) next_entry_id INT UNSIGNED, PRIMARY KEY (id));
 CREATE TABLE ReceivedTransmissions(id INT UNSIGNED NOT NULL auto_increment, received_by INT UNSIGNED NOT NULL, expires_on DATE NOT NULL, user_origin INT UNSIGNED NOT NULL, sent_at DATE NOT NULL DEFAULT gatedate(), read BOOL NOT NULL DEFAULT FALSE, PRIMARY KEY(id));
+
+CREATE PROCEDURE send_transmission(IN from_user INT UNSIGNED, IN energy, OUT tid INT UNSIGNED)
+  READS SQL DATA SQL SECURITY INVOKER
+  BEGIN
+  -- Determine the distance based on the amount of energy that will be consumed
+  
+  SELECT location FROM Users INTO loc WHERE id = owner_id;
+  SELECT id FROM Users WHERE ST_Distance(location, @loc) < distance;
+END;$$
+
 DELIMITER ;
