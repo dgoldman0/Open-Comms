@@ -2,11 +2,11 @@
 
 ## Arcadium & Elementarius
 
-Open Comms is connected to the Arcadium entertainment platform and Elementarius. While Open Comms is a general purpose social media platform, it takes place within the world of Elementarius, and so the focus is on entertainment.
+Open Comms is connected to the Arcadium entertainment platform and [Elementarius](https://github.com/dgoldman0/arcadium-main/blob/master/elementarius.md). And while Open Comms is a general purpose social media platform, it takes place within the world of Elementarius, and so the focus is on entertainment.
 
 ## User Accounts
 
-User accounts need mana crystals in order to activate their accounts. Mana will also be needed in order to create energy that user activities will consume.
+User accounts need mana crystals in order to activate their accounts. Mana will also be needed in order to create energy that user activities will consume. One reason why mana crystals are required is to prevent people from creating a large number of dummy accounts. While mana crystals can easily be obtained from the market, or from some free-to-earn play in Elementarius, it still would be a waste of money to create accounts just to spam.
 
 ### Stats
 
@@ -15,6 +15,8 @@ Users will be able to keep track of numerous stats including their reach for bot
 ## Locations
 
 Open Comms is a virtual space, and users  exist at specific locations in that space. As more users register, the space itself expands (the world will grow in size), causing people to spread out more. However, users are not forced to stay in place. They can move locations. However, energy will be consumed in moving from one location to another.
+
+The further away a user wants to move from their current location, the more energy it costs. However, less populated locations will cost less to move to than heavily populated areas.
 
 ## Transmissions vs Logs
 
@@ -43,4 +45,4 @@ Transmissions are fun if a user wants to send out a quick message to a lot of pe
 #### Private and Subscription Based Logs
 
 Not all logs are for public consumption. Logs can be made private, accessible to only specific users, or even made accessible through subscriptions, also payable in energy.
-Public logs will be accessible to everyone to read, even without an account. 
+Public logs will be accessible to everyone to read, even without an account.
