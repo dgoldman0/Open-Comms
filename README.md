@@ -22,7 +22,7 @@ There are two different media types in Open Comms, the transmission and the log.
 
 ### Transmissions
 
-As already stated, transmissions are short duration communications. They're sent out at the center of where the user is currently located. The radius of transmission is determined by how much energy a user is willing to use. The more energy used, the greater the initial potential reach.
+As already stated, transmissions are short duration communications. They're sent out at the center of where the user is currently located. The radius of transmission is determined by how much energy a user is willing to use. The more energy used, the greater the initial potential reach. However, the greater the distance, the more expensive it becomes, and the amount of energy required to send a message to the entire world becomes infinite. This system limits reach and prevents spamming of messages "across the globe."
 
 #### Boosts
 
@@ -43,3 +43,4 @@ Transmissions are fun if a user wants to send out a quick message to a lot of pe
 #### Private and Subscription Based Logs
 
 Not all logs are for public consumption. Logs can be made private, accessible to only specific users, or even made accessible through subscriptions, also payable in energy.
+Public logs will be accessible to everyone to read, even without an account. 
