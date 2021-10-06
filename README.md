@@ -18,6 +18,14 @@ Open Comms is a virtual space, and users  exist at specific locations in that sp
 
 The further away a user wants to move from their current location, the more energy it costs. However, less populated locations will cost less to move to than heavily populated areas.
 
+## Channels
+
+Rather than having a single feed, there will be multiple channels. Even people who are in "geographic proximity" won't notice each others' communications, if they're on different channels. Users can select which channels to turn on and off.
+
+### Creating Channels
+
+Initially there will only be two channels: the global user channel and the system message channel, which is always turned on, and will be used to send out system wide messages.
+
 ## Transmissions vs Logs
 
 There are two different media types in Open Comms, the transmission and the log. The transmission is a short lived post, which is distributed to other people nearby, while a log is persistent.
@@ -46,3 +54,13 @@ Transmissions are fun if a user wants to send out a quick message to a lot of pe
 
 Not all logs are for public consumption. Logs can be made private, accessible to only specific users, or even made accessible through subscriptions, also payable in energy.
 Public logs will be accessible to everyone to read, even without an account.
+
+***
+
+## FAQ
+
+1. Will the requirement to pay for the platform make it a pay to speak platform?
+
+It shouldn't. First, the platform is not meant to be a general purpose social media platform for everyone, though it could grow to become one. It is meant to be part of the world of Elementarius. Any player should already be generating enough resources to use the platform.
+
+Moreover, if a person has solid content, people will choose to move closer to that person. So the cost is spread out in both directions. A person does not need a lot of money to gain a lot of traction, nor does having a lot of money necessarily mean that there will be traction, because people will move further away from obnoxious posters.
